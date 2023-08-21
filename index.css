@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url("background.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.heading {
+  font-size: 60px;
+  font-weight: 700;
+  font-style: oblique;
+  padding-left: 50px;
+}
+.subheading {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+}
+.inp {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  font-size: 30px;
+}
+.contain {
+  width: 900px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.reverse {
+  font-size: 30px;
+}
+#thermo {
+  width: 70px;
+  height: 70px;
+  font-size: 60px;
+}
